@@ -3,7 +3,7 @@ pragma solidity ^0.6.12;
 
 import "./BEP20.sol";
 
-contract Presale is BEP20('PRESALE', 'PRESALE') {
+contract Presale is BEP20('Revault.network presale token', 'REVAPT') {
     using SafeMath for uint;
 
     uint maxBNBPerAddress;
